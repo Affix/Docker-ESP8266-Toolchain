@@ -62,6 +62,5 @@ USER toolchain
 
 ENV PATH=/opt/Espressif/crosstool-NG/builds/xtensa-lx106-elf/bin:$PATH
 ENV HOME=/home/toolchain
-RUN mkdir /build
 WORKDIR /build
 CMD make
